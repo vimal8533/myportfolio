@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon shortcut" type="image/png" href="/favicon.887424ff.png">
+        <title>Vimal-portfolio</title>
+        <meta name="keywords" content="[username], [name], skill">
+        <meta name="description" content="[Your name here] | Developer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/index.88ae5040.css">
+        <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+    </head>
+    <style>
+        #top {
+            align-items: center;
+            box-sizing: border-box;
+            height: 80px;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0 50px 0 100px;
+            width: 100%
+        }
+
+        #sidelogo,#top {
+            display: flex
+        }
+
+        #sidelogo>div>a {
+            color: #272341;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 0 .9rem
+        }
+
+        #top>div>#logo {
+            color: #6FB3B8;
+            font-size: 33px;
+            font-weight: 600
+        }
+
+        @media only screen and (max-width: 850px) {
+            #top {
+                display:block;
+                justify-content: space-evenly;
+                padding: 0 50px
+            }
+
+            #sidelogo {
+                font-size: 12px;
+                justify-content: space-around;
+                width: 100%
+            }
+
+            #lastsidelogo {
+                margin: 0
+            }
+        }
+
+        .skills-img-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .skills-img-item {
+            width: 14.28%
+        }
+
+        .skills-img-item img {
+            width: 65%
+        }
+
+        .mongo img {
+            height: 75%;
+            transform: translateY(-10%);
+            width: 80%
+        }
+
+        .express img {
+            height: 50%
+        }
+
+        @media only screen and (max-width: 500px) {
+            #sidelogo {
+                display:block
+            }
+        }
+    </style>
+    <body>
+        <div id="top">
+            <div>
+                <a id="logo" href="#">VIMAL</a>
+            </div>
+            <div id="sidelogo">
+                <div>
+                    <a href="#about">ABOUT</a>
+                </div>
+                <div>
+                    <a href="#skills">SKILLS</a>
+                </div>
+                <div>
+                    <a href="#projects">PROJECTS</a>
+                </div>
+                <div id="lastsidelogo">
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+        </div>
+        <section id="hero" class="jumbotron">
+            <div class="container">
+                <h1 class="hero-title load-hidden">
+                    Hi, my name is <span class="text-color-main">Vimal Kumar</span>
+                    <br>I am a Front End Developer. 
+                </h1>
+                <p class="hero-cta load-hidden">
+                    <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+                </p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2 class="load-hidden section-title">About me</h2>
+                <div class="about-wrapper row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__image load-hidden">
+                            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="100px" width="300px" src="./DSC_0919.JPG">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__info load-hidden">
+                            <p class="about-wrapper__info-text">Seasoned front-end developer with extensive expertise in HTML, CSS, JavaScript, and React. Highly proficient in crafting responsive and visually captivating user interfaces. Demonstrated ability to solve complex problems and consistently deliver top-notch projects. A dedicated professional committed to staying abreast of the latest industry trends and consistently striving to provide exceptional user experiences. </p>
+                            <p class="about-wrapper__info-text"></p>
+                            <span class="d-flex mt-3">
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="./Vimal_Kumar_Resume_05-07-2023-19-53-21.pdf">View Resume </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h2 class="load-hidden section-title">My Skills</h2>
+                <div class="skills-img-container">
+                    <div class="skills-img-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" alt="HTML5">
+                    </div>
+                    <div class="skills-img-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="CSS">
+                    </div>
+                    <div class="skills-img-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JAVASCRIPT">
+                    </div>
+                    <div class="skills-img-item">
+                        <img src="./images.png" alt="REACT">
+                    </div>
+                    <!-- <div class="skills-img-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="NodeJS">
+                    </div>
+                    <div class="mongo skills-img-item">
+                        <img src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" alt="NodeJS">
+                    </div>
+                    <div class="express skills-img-item">
+                        <img src="https://images.tute.io/tute/topic/express-js.png" alt="EXPRESSJS">
+                    </div> -->
+                </div>
+                <div class="skills-img-container"></div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <div class="project-wrapper">
+                    <h2 class="dark-blue-text section-title">Projects</h2>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="load-hidden project-wrapper__text">
+                                <h3 class="project-wrapper__text-title">Tasks-List</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Leveraged JavaScript to handle user interactions and dynamically update the task list. <br>
+                                        <br>HTML &nbsp;CSS &nbsp;JavaScript 
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://vimal8533.github.io/Project/Project_5/index.html">See Live </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/vimal8533/Project/tree/main/Project_5">Source Code </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="load-hidden project-wrapper__image">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="js-tilt rounded thumbnail">
+                                        <img alt="Project Image" class="img-fluid" src="./Screenshot (56).png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="load-hidden project-wrapper__text">
+                                <h3 class="project-wrapper__text-title">Reminder Clock App Website</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        The website provides a user-friendly interface for setting and managing reminders with a dynamic clock display. <br>
+                                        <br>HTML &nbsp;CSS &nbsp;JavaScript 
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://vimal8533.github.io/Project/project4/index.html">See Live </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/vimal8533/Project/tree/main/project4">Source Code </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="load-hidden project-wrapper__image">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="js-tilt rounded thumbnail">
+                                        <img alt="Project Image" class="img-fluid" src="./Screenshot (57).png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="load-hidden project-wrapper__text">
+                                <h3 class="project-wrapper__text-title">ID Card Generator Website</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        The website provides users with a platform to dynamically generate identification cards.  <br>
+                                        <br>HTML &nbsp;CSS &nbsp;JavaScript 
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://vimal8533.github.io/myownsimpleproject/project3/index.html">See Live </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/vimal8533/myownsimpleproject/tree/main/project3">Source Code </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="load-hidden project-wrapper__image">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="js-tilt rounded thumbnail">
+                                        <img alt="Project Image" class="img-fluid" src="./Screenshot (58).png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="load-hidden project-wrapper__text">
+                                <h3 class="project-wrapper__text-title">Jio Mart Website UI</h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Developed the user interface (UI) for the Jio Mart website, showcasing my skills in front-end web development.  <br>
+                                        <br>HTML &nbsp;CSS
+                                    </p>
+                                </div>
+                                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://vimal8533.github.io/miniproject/Jiomart/index.html">See Live </a>
+                                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/vimal8533/miniproject/tree/main/Jiomart">Source Code </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="load-hidden project-wrapper__image">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="js-tilt rounded thumbnail">
+                                        <img alt="Project Image" class="img-fluid" src="./Screenshot (61).png">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-wrapper load-hidden">
+                    <p class="contact-wrapper__text">[Mobile:- +917654138539]</p>
+                    <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="https://v1i2m3a4l@gmail.com">Email:- v1i2m3a4l@gmail.com</a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer navbar-static-bottom">
+            <div class="container">
+                <a rel="noreferrer" href="#top" class="back-to-top">
+                    <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i>
+                </a>
+                <div class="social-links">
+                    <a rel="noreferrer" href="https://twitter.com/vimalkashy89952" target="_blank">
+                        <i class="fa fa-inverse fa-twitter"></i>
+                    </a>
+                    <a rel="noreferrer" href="www.linkedin.com/in/vimal-k-549120112" target="_blank">
+                        <i class="fa fa-inverse fa-linkedin"></i>
+                    </a>
+                    <a rel="noreferrer" href="https://github.com/vimal8533" target="_blank">
+                        <i class="fa fa-github fa-inverse"></i>
+                    </a>
+                </div>
+                <hr>
+                <p class="footer__text">
+                    © 2021 - Template developed by <a rel="noreferrer" href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
+                </p>
+            </div>
+        </footer>
+        <script defer type="module" src="/index.79e9708c.js"></script>
+    </body>
+</html>
